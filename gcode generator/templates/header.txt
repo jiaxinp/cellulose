@@ -1,0 +1,22 @@
+;FLAVOR:Marlin
+;TIME:52150
+;Filament used: 1.04025m
+;Layer height: 0.12
+;MINX:2.699
+;MINY:12.696
+;MINZ:0.12
+;MAXX:52.3
+;MAXY:62.304
+;MAXZ:2.04
+;Generated with Cura_SteamEngine 5.3.1
+M105
+M109 S0
+M82 ;absolute extrusion mode
+
+G92 E0
+G92 E0
+G1 F2700 E-5
+;LAYER_COUNT:1
+;LAYER:0
+M107
+;MESH:film_square_1mm.STL

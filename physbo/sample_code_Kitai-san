@@ -1,0 +1,8 @@
+pH_FIXED = ... # fixed pH value
+FR_FIXED = ... # fixed flow rate value
+policy = physbo.search.discrete_multi.policy(X) # Use **the same X** as the training phase
+policy.load(file_history="history.pickle", file_training_list="training.pickle", file_predictor_list="predictor.pickle") # load saved files
+invalid_candidates = np.arange(len(X))[~((X[:, pH_col] == pH_FIXED) && (X[:, fr_col] == FR_FIXED))] # list all the indices of unwanted candidates
+policy._delete_actions(invalid_candidates) # and remove them
+
+... # run the optimization as usual

@@ -1,0 +1,14 @@
+result/
+data/
+Figure/
+notebooks/
+logging/
+.DS_Store
+.idea/
+.run/
+pickle_data/
+__pycache__/
+/Newly_Processed_Images/
+/Newly_processed_figure/
+/NewNotebook/
+/wtmm/example.ipynb

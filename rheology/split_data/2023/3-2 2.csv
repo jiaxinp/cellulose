@@ -1,0 +1,24 @@
+Name:;;;3-2 2
+Number of Intervals:;;;1
+Application:;;;RHEOPLUS/32 V3.61 21006227-33024
+Device:;;;MCR302 SN81156610; FW3.65; Slot(9,-1)
+Measuring Date/Time:;;;2023/09/19; 22:18  
+Measuring System:;;;CP50-2-SN42594; d=0.206 mm
+Accessories:;;;TU1=P-PTD200-SN81263554
+
+Interval:;;;1
+Number of Data Points:;;;5
+
+Time Setting:;;;31 Meas. Pts.
+;;;Meas. Pt. Duration 60 ... 5 s log
+Measuring Profile:
+  Shear Rate;;;d(gamma)/dt = 0.01 ... 1000 1/s log; |Slope| = 6 Pt. / dec 
+
+Meas. Pts.;Shear Rate;Shear Stress;Viscosity;Speed;Torque;Status
+;[1/s];[Pa];[Pa�Es];[1/min];[��Nm];[]
+1;0.01;-0.000783;-0.0783;0.00334;-0.0257;Dy_auto
+2;0.0147;-0.000364;-0.0248;0.0049;-0.0119;Dy_auto
+3;0.0215;-0.00032;-0.0149;0.00719;-0.0105;Dy_auto
+4;0.0316;0.00027;0.00853;0.0106;0.00884;M- ,Dy_
+5;0.0464;0.0000246;0.00053;0.0155;0.000807;M- ,Dy_
+
